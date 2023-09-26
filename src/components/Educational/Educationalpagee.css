@@ -1,0 +1,66 @@
+.educationcontainer{
+    height: auto;
+    width: auto;
+    padding: 150px 15% 40px 15%;
+    background-image: url(./educationbackground.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.masters{
+    background-image: url(./educationbackground.webp);
+    padding: 20px 20px 20px 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 30px;
+}
+.masters:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px 100px;
+}
+.descriptioneducation{
+    font-size: 20px;
+    margin-left: 10%;
+    color: #fffaf0;
+    /* font-family: arial,sans-serif; */
+    line-height: 30px;
+}
+.graduation{
+    background-image: url(./educationbackground.webp);
+    padding: 20px 20px 20px 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 30px;
+}
+.graduation:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px 100px;
+}
+.diploma{
+    background-image: url(./educationbackground.webp);
+    padding: 20px 20px 20px 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 30px;
+}
+.diploma:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px 100px;
+}
+.highschool{
+    background-image: url(./educationbackground.webp);
+    padding: 20px 20px 20px 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 30px;
+}
+.highschool:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px 100px;
+}
+.collegename{
+    color:#f0f8ff;
+}

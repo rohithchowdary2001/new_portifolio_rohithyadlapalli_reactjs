@@ -1,0 +1,108 @@
+.upperhomepage {
+  width: auto;
+  height: 80vh;
+  background-image: url(./rohithhomepage.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.lowerhomepage {
+  padding-bottom: 30px;
+  width: auto;
+  height: auto;
+  background-color: beige;
+}
+
+.welcomeblock {
+  font-size: 50px;
+  text-align: left;
+  font-weight: 400;
+  padding-top: 200px;
+  padding-left: 70px;
+  color: gray;
+}
+
+.description {
+  font-size: large;
+  margin-left: 10%;
+  margin-top: 5%;
+  color: gray;
+  font-weight: 400;
+
+}
+
+.welcomeblock {
+  color: hsl(0, 0%, 28%);
+  font-size: 50px;
+  font-weight: bold;
+  font-family: monospace;
+  letter-spacing: 7px;
+  cursor: pointer;
+}
+
+.welcomeblock span {
+  transition: 0.5s ease-out;
+}
+
+.welcomeblock:hover span:nth-child(1) {
+  margin-right: 5px;
+}
+
+.welcomeblock:hover span:nth-child(1):after {
+  content: " ";
+}
+
+.welcomeblock:hover span:nth-child(2) {
+  margin-left: 30px;
+}
+
+.welcomeblock:hover span {
+  color: #ea3636;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+}
+
+
+
+
+.headinglower {
+  color: hsl(0, 0%, 28%);
+  font-size: 30px !important;
+  font-weight: bold !important;
+  font-family: monospace;
+  letter-spacing: 7px !important;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.headinglower {
+  padding: 30px 0px 10px 0px;
+  text-align: center;
+  background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 63%, 60%) 10%, hsl(0, 0%, 30%) 20%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 4s infinite linear;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0;
+  }
+
+  60% {
+    background-position: 1000px;
+  }
+
+  100% {
+    background-position: 1000px;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .upperhomepage{
+background-size:auto;
+width: auto;
+  }
+}
