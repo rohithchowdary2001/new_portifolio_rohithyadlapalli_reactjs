@@ -1,12 +1,13 @@
 .upperhomepage {
   width: auto;
   height: 80vh;
-  background-image: url(./rohithhomepage.jpg);
-  background-size: auto;
+  /* background-image: url(./rohithhomepage.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  position: relative;
+  /* position: relative; */
+  background-position: center;
+  background-image: url(./20230204_133238.jpg);
 }
 
 .lowerhomepage {
@@ -20,7 +21,7 @@
   font-size: 50px;
   text-align: left;
   font-weight: 400;
-  padding-top: 200px;
+  padding-top: 180px;
   padding-left: 70px;
   color: gray;
 }
@@ -29,13 +30,14 @@
   font-size: large;
   margin-left: 10%;
   margin-top: 5%;
-  color: gray;
+  color: rgb(407, 201, 205);
   font-weight: 400;
-
+  text-shadow: 5px 5px 50px;
+  font-style: italic;
 }
 
 .welcomeblock {
-  color: hsl(0, 0%, 28%);
+  color: rgb(407, 201, 205);
   font-size: 50px;
   font-weight: bold;
   font-family: monospace;
@@ -44,28 +46,9 @@
 }
 
 .welcomeblock span {
-  transition: 0.5s ease-out;
-}
-
-.welcomeblock:hover span:nth-child(1) {
-  margin-right: 5px;
-}
-
-.welcomeblock:hover span:nth-child(1):after {
-  content: " ";
-}
-
-.welcomeblock:hover span:nth-child(2) {
-  margin-left: 30px;
-}
-
-.welcomeblock:hover span {
   color: #ea3636;
   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
 }
-
-
-
 
 .headinglower {
   color: hsl(0, 0%, 28%);
@@ -73,17 +56,26 @@
   font-weight: bold !important;
   font-family: monospace;
   letter-spacing: 7px !important;
-  cursor: pointer;
   text-transform: uppercase;
 }
 
 .headinglower {
   padding: 30px 0px 10px 0px;
   text-align: center;
-  background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 63%, 60%) 10%, hsl(0, 0%, 30%) 20%);
+  background: linear-gradient(to right, hsl(0, 8%, 53%) 0, hsl(0, 63%, 60%) 10%, hsl(0, 0%, 30%) 20%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: shine 4s infinite linear;
+}
+
+.home-line {
+  height: 7px;
+  background: linear-gradient(to right,
+      #ffffff 0%,
+      #bab9b9 25%,
+      #6e6e6e 50%,
+      #bab9b9 75%,
+      #ffffff 100%);
 }
 
 @keyframes shine {
@@ -101,8 +93,15 @@
 }
 
 @media screen and (max-width:480px) {
-  .upperhomepage{
+  body {
+    /* width: fit-content; */
+  }
+
+  /* .upperhomepage{
 background-size:auto;
 width: auto;
+  } */
+  .welcomeblock{
+    padding-top: 100px;
   }
 }

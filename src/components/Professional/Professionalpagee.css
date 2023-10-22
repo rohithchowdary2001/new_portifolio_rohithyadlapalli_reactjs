@@ -1,0 +1,29 @@
+.professional-container{
+    /* background-image: url(./Professionalpagebackground.png); */
+    background-image: url(./professionalbackground.avif);
+    height: auto;
+    width: auto;
+    padding: 150px 15% 40px 15%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.job-atos{
+    background-image: url(./professionalbackground.avif);
+    padding: 20px 20px 20px 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 30px;
+    transition-duration: 2s;
+    box-shadow: 5px 5px 100px;
+    border-radius: 10px;
+}
+.job-atos:hover{
+    transform: scale(1.05);
+    transition-duration: 2s;
+    box-shadow: 5px 5px 100px;
+}
+@media screen and (max-width:480px) {
+    .professional-container{
+        padding: 150px 7% 40px 7%;    }
+}

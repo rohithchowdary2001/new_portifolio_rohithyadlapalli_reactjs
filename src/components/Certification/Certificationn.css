@@ -1,0 +1,12 @@
+.certification-container{
+    background-image: url(./backgroundcertification.jpg);
+    height: auto    ;
+    width: auto;
+    padding: 150px 15% 40px 15%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.certifications-name{
+    font-size: 20px;
+    line-height: 40px;
+}

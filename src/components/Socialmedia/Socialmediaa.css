@@ -1,0 +1,44 @@
+.social-container{
+    background-image: url(./professional-background-2cmtz5pbgubk31mg.jpg);
+    height: auto    ;
+    width: auto;
+    padding: 150px 15% 40px 15%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.masterss{
+    background-image:url(./professional-background-2cmtz5pbgubk31mg.jpg) ;
+    padding: 20px 20px 20px 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 30px;
+    transition-duration: 2s;
+    box-shadow: 5px 5px 100px;
+    border-radius: 10px;
+}
+.masterss:hover{
+    transform: scale(1.05);
+    transition-duration: 2s;
+    box-shadow: 5px 5px 100px;
+}
+.mastersss{
+    background-image:url(./professional-background-2cmtz5pbgubk31mg.jpg) ;
+    padding: 20px 20px 20px 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 30px;
+    transition-duration: 2s;
+    box-shadow: 5px 5px 100px;
+    border-radius: 10px;
+}
+.mastersss:hover{
+    transform: scale(1.05);
+    transition-duration: 2s;
+    box-shadow: 5px 5px 100px;
+}
+@media screen and (max-width:480px) {
+    .social-container{
+        padding: 150px 7% 40px 7%;    }
+}

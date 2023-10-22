@@ -1,0 +1,43 @@
+.skills-container {
+    background-image: url(./skillsbackground.webp);
+    padding: 150px 15% 40px 15%;
+    height: auto;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-skill-container {
+    width: 300px;
+    height: 50px;
+    align-items: center;
+    text-align: center;
+    background-image: url(./skillsbackground.webp);
+    padding: 10px 10px 10px 10px;
+    line-height: 30px;
+    font-size: x-large;
+    border-radius:15px;
+    margin: 20px 0px 20px 0px;
+}
+
+.card-skill-container:hover {
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+.card-items {
+    display: grid;
+    grid-template-areas: "1 2 ";
+}
+@media screen and (max-width:480px) {
+    .card-items {
+        display: grid;
+        grid-template-areas: "1 ";
+        justify-content: center;
+        gap: 10px;
+        font-weight: 500;
+    }
+    .skills-container {
+        padding: 150px 7% 40px 7%;
+    }
+}

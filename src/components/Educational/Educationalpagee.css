@@ -2,20 +2,24 @@
     height: auto;
     width: auto;
     padding: 150px 15% 40px 15%;
-    background-image: url(./educationbackground.webp);
+    background-image:url(./educationalbackground.webp) ;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .masters{
-    background-image: url(./educationbackground.webp);
+    background-image:url(./educationalbackground.webp) ;
     padding: 20px 20px 20px 20px;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     margin-bottom: 30px;
+    transition-duration: 2s;
+    box-shadow: 5px 5px 100px;
+    border-radius: 10px;
 }
 .masters:hover{
     transform: scale(1.05);
+    transition-duration: 2s;
     box-shadow: 5px 5px 100px;
 }
 .descriptioneducation{
@@ -26,41 +30,59 @@
     line-height: 30px;
 }
 .graduation{
-    background-image: url(./educationbackground.webp);
+    background-image:url(./educationalbackground.webp) ;
     padding: 20px 20px 20px 20px;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     margin-bottom: 30px;
+    transition-duration: 2s;
+    box-shadow: 5px 5px 100px;
+    border-radius: 10px;
 }
 .graduation:hover{
     transform: scale(1.05);
     box-shadow: 5px 5px 100px;
+    transition-duration: 2s;
+
 }
 .diploma{
-    background-image: url(./educationbackground.webp);
+    background-image:url(./educationalbackground.webp) ;
     padding: 20px 20px 20px 20px;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     margin-bottom: 30px;
+    transition-duration: 2s;
+    box-shadow: 5px 5px 100px;
+    border-radius: 10px;
 }
 .diploma:hover{
     transform: scale(1.05);
     box-shadow: 5px 5px 100px;
+    transition-duration: 2s;
 }
 .highschool{
-    background-image: url(./educationbackground.webp);
+    background-image:url(./educationalbackground.webp) ;
     padding: 20px 20px 20px 20px;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     margin-bottom: 30px;
+    transition-duration: 2s;
+    box-shadow: 5px 5px 100px;
+    border-radius: 10px;
 }
 .highschool:hover{
     transform: scale(1.05);
     box-shadow: 5px 5px 100px;
+    transition-duration: 2s;    
 }
 .collegename{
     color:#f0f8ff;
+}
+@media screen and (max-width:480px) {
+.educationcontainer{
+    padding: 150px 7% 40px 7%;
+}   
 }
