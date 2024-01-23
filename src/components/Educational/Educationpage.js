@@ -11,7 +11,7 @@ function Educationpage() {
             <div style={{fontSize:"xxx-large",marginBottom:"30px",color:"#d8ebff"}}>My Education</div>
             <div className='masters'>
                 <div style={{fontSize:"40px",color:"brown"}}>Master's</div>
-                <div style={{fontSize:"40px"}} className='collegename'>Concordia University-Chicago</div>
+                <div style={{fontSize:"40px"}} className='collegename'>Oklahoma Christian University</div>
                 <div style={{fontSize:"30px"}} className='collegename'>Computer Science</div>
                 <div style={{fontSize:"20px"}} className='collegename'>Percentage Obtained: <b style={{color:'white'}}>NA</b></div>
                 <div style={{fontSize:"20px"}} className='collegename'>2024-Present</div>

@@ -1,13 +1,15 @@
 .cardscontainer {
     margin: 100px 0px 100px 0px;
 }
+
 .cardscontainer {
     display: grid;
     grid-template-areas: "1 2 ";
     justify-content: center;
     gap: 100px;
 }
-.sub-boxaa{
+
+.sub-boxaa {
     width: 400px;
     height: 200px;
     background-color: aqua;
@@ -16,7 +18,8 @@
     border-radius: 20px;
     background-position: center;
 }
-.sub-boxba{
+
+.sub-boxba {
     width: 300px;
     height: 50px;
     background-color: white;
@@ -27,7 +30,8 @@
     line-height: 40px;
     color: black;
 }
-.sub-boxab{
+
+.sub-boxab {
     width: 400px;
     height: 200px;
     background-color: aqua;
@@ -36,7 +40,8 @@
     border-radius: 20px;
     background-position: center;
 }
-.sub-boxbb{
+
+.sub-boxbb {
     width: 300px;
     height: 50px;
     background-color: white;
@@ -47,7 +52,8 @@
     line-height: 40px;
     color: black;
 }
-.sub-boxac{
+
+.sub-boxac {
     width: 400px;
     height: 200px;
     background-color: aqua;
@@ -56,7 +62,8 @@
     border-radius: 20px;
     background-position: center;
 }
-.sub-boxbc{
+
+.sub-boxbc {
     width: 300px;
     height: 50px;
     background-color: white;
@@ -67,7 +74,8 @@
     line-height: 40px;
     color: black;
 }
-.sub-boxad{
+
+.sub-boxad {
     width: 400px;
     height: 200px;
     background-color: aqua;
@@ -75,7 +83,8 @@
     background-size: cover;
     border-radius: 20px;
 }
-.sub-boxbd{
+
+.sub-boxbd {
     width: 300px;
     height: 50px;
     background-color: white;
@@ -86,7 +95,8 @@
     line-height: 40px;
     color: black;
 }
-.sub-boxae{
+
+.sub-boxae {
     width: 400px;
     height: 200px;
     background-color: aqua;
@@ -95,7 +105,8 @@
     border-radius: 20px;
     background-position: center;
 }
-.sub-boxbe{
+
+.sub-boxbe {
     width: 300px;
     height: 50px;
     background-color: white;
@@ -106,11 +117,13 @@
     line-height: 40px;
     color: black;
 }
-.box-mainn{
+
+.box-mainn {
     transition-duration: 2s;
     background-color: transparent;
 }
-.box-mainn:hover{
+
+.box-mainn:hover {
     transform: scale(1.2);
     transition-duration: 1s;
 }
